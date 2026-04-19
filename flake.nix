@@ -1,5 +1,5 @@
 {
-  description = "pesde is a package manager for the Luau programming language, designed to prevent runtime lock-in.";
+  description = "A package manager for the Luau programming language, supporting multiple runtimes including Roblox and Lune";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
