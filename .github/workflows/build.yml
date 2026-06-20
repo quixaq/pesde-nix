@@ -1,7 +1,9 @@
 name: Build
 on:
-  schedule:
-    - cron: "19 7 * * *"
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
