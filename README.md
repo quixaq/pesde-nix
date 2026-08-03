@@ -5,13 +5,13 @@ Nix Flake for [pesde](https://github.com/pesde-pkg/pesde)
 ## Usage
 Run without installing:
 ```bash
-nix run github:quixaq/pesde-nix
+nix run git+https://codeberg.org/quixaq/pesde-nix
 ```
 
 ## Installation
 Add this to your `flake.nix` inputs:
 ```nix
-inputs.pesde-nix.url = "github:quixaq/pesde-nix";
+inputs.pesde-nix.url = "git+https://codeberg.org/quixaq/pesde-nix";
 ```
 And import it as a module. It will add pesde to your system packages:
 ```nix
