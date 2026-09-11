@@ -1,5 +1,11 @@
 # pesde-nix
 
+-----
+
+> Archived: `pesde` is in nixpkgs unstable as of writing, so this flake is not needed anymore. Use the nixpkgs package.
+
+-----
+
 Nix Flake for [pesde](https://github.com/pesde-pkg/pesde)
 
 ## Usage
